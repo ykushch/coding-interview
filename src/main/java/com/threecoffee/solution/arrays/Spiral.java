@@ -11,7 +11,7 @@ public class Spiral {
         UP, LEFT, DOWN, RIGHT
     }
 
-    public static List<Integer> spiralOrder(final List<ArrayList<Integer>> inputMatrix) {
+    public static List<Integer> spiralOrder(final List<List<Integer>> inputMatrix) {
         if (isValid(inputMatrix)) {
             return Collections.emptyList();
         }
@@ -64,7 +64,7 @@ public class Spiral {
         return result;
     }
 
-    private static boolean isValid(List<ArrayList<Integer>> inputMatrix) {
+    private static boolean isValid(List<List<Integer>> inputMatrix) {
         if(inputMatrix == null) {
             return true;
         }

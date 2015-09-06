@@ -1,4 +1,4 @@
-package com.threecoffee.solutions.arrays;
+package com.threecoffee.solution.arrays;
 
 import com.threecoffee.solution.arrays.Spiral;
 import org.junit.Test;
@@ -16,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class SpiralTest {
 
     @Spy
-    List<ArrayList<Integer>> matrix = new ArrayList<>();
+    List<List<Integer>> matrix = new ArrayList<>();
 
     @Test
     public void testSpiralOrder() throws Exception {

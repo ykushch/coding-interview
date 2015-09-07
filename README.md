@@ -2,7 +2,6 @@
 A bunch of tasks that could be completed in free time on your own.
 
 # Arrays
-Problems that relates to arrays.
 
 ## Spiral
 Given a matrix of `m * n` elements (m rows, n columns), return all elements of the matrix in spiral order.

@@ -7,10 +7,12 @@ import java.util.Collections;
 import java.util.List;
 
 public class IntervalMerge {
+    
     public static List<Interval> insert(List<Interval> intervals, Interval newInterval) {
         if(intervals == null || intervals.isEmpty()) {
             return Collections.singletonList(newInterval);
         }
+        
         normalizeInput(intervals, newInterval);
         intervals.add(newInterval);
         intervals.sort((first, second) -> Integer.compare(first.getStart(), second.getStart()));
@@ -39,9 +41,11 @@ public class IntervalMerge {
     private static List<Interval> mergeOverlapping(List<Interval> intervals) {
         List<Interval> result = new ArrayList<>();
         result.add(intervals.get(0));
+        
         for(int i = 1, length = intervals.size() - 1; i <= length; i++) {
             Interval top = result.get(result.size() - 1);
             Interval mergableInterval = intervals.get(i);
+            
             if(areOverlap(top, mergableInterval)) {
                 Interval interval = new Interval(Math.min(top.getStart(), mergableInterval.getStart()),
                         Math.max(top.getEnd(), mergableInterval.getEnd()));
@@ -52,6 +56,7 @@ public class IntervalMerge {
                 result.add(mergableInterval);
             }
         }
+        
         return result;
     }
 

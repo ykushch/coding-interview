@@ -13,6 +13,8 @@ function.
 </p>
 <br/>
 
+Image [source](http://javahungry.blogspot.com/2013/08/hashing-how-hash-map-works-in-java-or.html)
+
 ##### Inserting into map (key and value)
 1. Compute the key's hash code, which will usually be an int or long. Note that two different keys could have the 
 same hash code, as there may be an infinite number of keys and a finite number of ints.

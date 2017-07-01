@@ -1,9 +1,19 @@
-package com.threecoffee.solution.arrays;
+package com.ykushch.solution.arrays;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Rotate the array A by B positions.
+ *
+ * Example:
+ * A : [1 2 3 4 5 6]
+ * B : 1
+ *
+ * The output :
+ * [2 3 4 5 6 1]
+ */
 public class CircularShift {
 
     public static List<Integer> rotateArray(List<Integer> inputList, int shiftFactor) {

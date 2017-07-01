@@ -1,6 +1,6 @@
-package com.threecoffee.solution.arrays;
+package com.ykushch.solution.arrays;
 
-import com.threecoffee.solution.arrays.entity.Interval;
+import com.ykushch.solution.arrays.entity.Interval;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Spy;

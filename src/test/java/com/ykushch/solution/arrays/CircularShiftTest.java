@@ -1,4 +1,4 @@
-package com.threecoffee.solution.arrays;
+package com.ykushch.solution.arrays;
 
 import org.assertj.core.api.Assertions;
 import org.junit.Test;

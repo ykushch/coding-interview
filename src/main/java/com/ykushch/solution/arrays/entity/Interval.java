@@ -1,4 +1,4 @@
-package com.threecoffee.solution.arrays.entity;
+package com.ykushch.solution.arrays.entity;
 
 public class Interval {
     private int start = 0;

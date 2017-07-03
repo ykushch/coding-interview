@@ -2,6 +2,9 @@ package com.ykushch.solution.ch01;
 
 import java.util.Arrays;
 
+/**
+ * Check permutation: Given two strings, write a method to decide if one is a permutation of the other.
+ */
 public class Permutation {
     public static boolean isPermutation(String a, String b) {
         if(a.length() != b.length()) {

@@ -46,49 +46,46 @@ bucket used simple linked list to store objects.
 | 💰 | Fully paid content. |
 
 ### Coding Interview University (GitHub) 🆓
-[Coding-interview-university](https://github.com/jwasham/coding-interview-university)
-Good resource, have very long list of advices on what to read and how to prepare for your coding AND
-System Design interview.
+[Coding-interview-university](https://github.com/jwasham/coding-interview-university). Good resource, have very 
+long list of advices on what to read and how to prepare for your coding AND System Design interview.
  
 ### InterviewBit 🆓
-[InterviewBit](https://www.interviewbit.com/)
-Self paced tutorial like resource on preparation for coding, system design AND have a mock interview feature.
-Contains many problems for different companies.
+[InterviewBit](https://www.interviewbit.com/). Self paced tutorial like resource on preparation for coding, system 
+design AND have a mock interview feature. Contains many problems for different companies.
 
 ### LeetCode 🆓 / 💰
-[LeetCode](https://leetcode.com)
-Many challenges, problems for solving. Have a bonus system. You could spend money and buy a premium subscription
-for mock interviews and premium problems.
+[LeetCode](https://leetcode.com). Many challenges, problems for solving. Have a bonus system. You could spend money 
+and buy a premium subscription for mock interviews and premium problems.
 
 ### InterviewCake 💰 / 🆓
-[InterviewCake](https://www.interviewcake.com)
-This resource is about coding practice, but it differs from others. The main focus here is to give you a 
-basic intuition on how to address to the particular problem.
+[InterviewCake](https://www.interviewcake.com). This resource is about coding practice, but it differs from others. 
+The main focus here is to give you a basic intuition on how to address to the particular problem.
 
 ### System Design Primer (GitHub) 🆓 
-[System Design Primer](https://github.com/donnemartin/system-design-primer)
-Great resource on how to deal with system design interviews. Contains different use cases and real world 
-experience. Highly recommend to review it.
+[System Design Primer](https://github.com/donnemartin/system-design-primer). Great resource on how to deal with system 
+design interviews. Contains different use cases and real world experience. Highly recommend to review it.
 
 ### HiredInTech 🆓 
 [HiredInTech](https://www.hiredintech.com/system-design)
 Guys are doing great job on advices and use cases for system design interviews. Definitely recommend to 
 spend some time here.
 
-### Technical Mock Interview 💰
-[Technical Mock Interview](http://www.techmockinterview.com/)
-Pricing: $80 per session OR $340 for 5 session package
-The main focus is mock interviews and with detailed feedback.
+### Technical Mock Interview 💰<br/>
+[Technical Mock Interview](http://www.techmockinterview.com/). The main focus is mock interviews and with detailed 
+feedback.<br>
+**Pricing**: $80 per session OR $340 for 5 session package.
+
 
 ### Gainlo 💰
-[Gainlo](http://www.gainlo.co)
-The main focus is mock interviews. Also, they have good blog on general advices on how to deal with interviews.
+[Gainlo](http://www.gainlo.co). The main focus is mock interviews. Also, they have good blog on general advices 
+on how to deal with interviews.
+**Pricing**: $50-$130 per interview based on the interviewer, interview type, industry, etc.
 
 ### System Design Interview 💰 
-[System Design Interview](https://systemdesigninterview.com)
-Pricing: whole course for ~ $79
-Found this course on Quora. They say, that this is a great resource for system design interview. 
-Haven't tried it yet.
+[System Design Interview](http://systemdesigninterview.com). Found this course on Quora. They say, that this is a great 
+resource for system design interview. Haven't tried it yet.<br>
+**Pricing**: whole course for ~ $79.
+
 
 # Arrays
 - [Spiral](https://github.com/ykushch/codinginterview/blob/master/src/main/java/com/ykushch/solution/arrays/Spiral.java)

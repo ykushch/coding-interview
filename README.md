@@ -82,8 +82,9 @@ on how to deal with interviews.
 **Pricing**: $50-$130 per interview based on the interviewer, interview type, industry, etc.
 
 ### System Design Interview 💰 
-[System Design Interview](http://systemdesigninterview.com). Found this course on Quora. They say, that this is a great 
-resource for system design interview. Haven't tried it yet.<br>
+[System Design Interview](http://systemdesigninterview.com). Very concentrated course. Many use cases, examples. 
+Highly recommend it before preparation. After a couple of years of design you will definitely find 
+something new for you.<br>
 **Pricing**: whole course for ~ $79.
 
 

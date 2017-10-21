@@ -4,7 +4,6 @@ import java.util.List;
 
 /**
  * Given an array of integers, rotate the array by 'N' elements.
- *
  */
 public class RotateArray {
 
@@ -31,6 +30,29 @@ public class RotateArray {
             arr.set(end, temp);
             start++;
             end--;
+        }
+    }
+
+    public void rotateWithTempArray(int[] arr, int n) {
+        int len = arr.length;
+        int numOfRotations = n % len;
+
+        if (numOfRotations < 0) {
+            numOfRotations += len;
+        }
+
+        int[] temp = new int[numOfRotations];
+
+        for (int i = 0; i < numOfRotations; i++) {
+            temp[i] = arr[len - numOfRotations + i];
+        }
+
+        for (int i = len - 1; i >= numOfRotations; i--) {
+            arr[i] = arr[i - numOfRotations];
+        }
+
+        for (int i = 0; i < numOfRotations; i++) {
+            arr[i] = temp[i];
         }
     }
 }

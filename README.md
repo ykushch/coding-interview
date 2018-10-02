@@ -87,6 +87,8 @@ Highly recommend it before preparation. After a couple of years of design you wi
 something new for you.<br>
 **Pricing**: whole course for ~ $79.
 
+### Mastering the Software Engineering Interview (University of California @ Coursera) 💰 
+[Mastering the Software Engineering Interview](https://www.coursera.org/learn/cs-tech-interview). Informative of the CS specific interview process: particularly the technical interview process.
 
 # Arrays
 - [Spiral](https://github.com/ykushch/codinginterview/blob/master/src/main/java/com/ykushch/solution/arrays/Spiral.java)
